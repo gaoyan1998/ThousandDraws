@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ml.thousandsdraw.logo">
+    <item
+        android:title="@string/undo"
+        android:id="@+id/action_undo"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_revert"/>
+    <item
+        android:icon="@drawable/ic_rest"
+        android:id="@+id/action_clear"
+        android:title="@string/clear"
+        app:showAsAction="always" />
+    <item
+        android:icon="@mipmap/ic_save"
+        android:id="@+id/action_save"
+        android:title="@string/save"
+        app:showAsAction="always" />
+    <item
+        android:icon="@mipmap/btn_resize"
+        android:id="@+id/action_restBackPic"
+        android:title="@string/clearBackPic"
+        />
+    <item
+        android:icon="@mipmap/btn_resize"
+        android:id="@+id/action_restBackColor"
+        android:title="@string/clearBackColor"
+        />
+    <item
+        android:icon="@mipmap/btn_resize"
+        android:id="@+id/action_save_local"
+        android:title="@string/save_local"
+        />
+</menu>

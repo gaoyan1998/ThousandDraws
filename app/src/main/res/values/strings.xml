@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="about">"本软件由 新创游戏工作室开发！
+		\n喜欢本软件就分享给朋友吧！
+		\n欢迎加入新创游戏开发工作室，群号码：318839139"
+		\n您的支持就是我们最大的动力！千层画还不完善，我们后续会继续更新！欢迎体验哦(´-ω-`)
+		\n有问题欢迎反馈
+    </string>
+    <string name="app_name">千层画</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">颜色选择器</string>
+    <string name="press_color_to_apply">点击下面选择颜色</string>
+
+    <!-- Preferences -->
+    <string name="pref_category">Category</string>
+    <string name="color1_title">Color 1</string>
+    <string name="color1_summary">black color by default, set by reference</string>
+    <string name="color2_title">Color 2</string>
+    <string name="color2_summary">not persistent color\nalpha slider added via code</string>
+    <string name="color3_title">Color 3</string>
+    <string name="color3_summary">picker with alpha slider</string>
+    <string name="color4_title">Color 4</string>
+    <string name="color4_summary">color set with HEX code in xml</string>
+
+
+    <string name="action_settings">s</string>
+    <string name="action_splash">splash</string>
+    <string name="title_activity_maindemo">广点通：结盟而赢</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="gdtslogan">GDTslogan</string>
+    <string name="click_to_skip">点击跳过</string>
+    <string name="title_activity_banner">广点通：横幅广告</string>
+    <string name="title_activity_interstitial_ad">广点通：插屏广告</string>
+    <string name="title_nativead">广点通：原生广告</string>
+    <string name="title_activity_gdtnative_video_ad">原生视频广告-ListView示例</string>
+    <string name="title_activity_native_video_demo">原生视频广告-基本示例</string>
+    <string name="title_activity_native_video_ad">原生视频广告接入示例</string>
+    <string name="title_activity_native_video_recycler_view">原生视频广告-RecyclerView示例</string>
+    <string name="title_activity_native_video_scroll_view">原生视频广告-ScrollView示例</string>
+    <string name="title_activity_native_video_pre_movie">原生视频广告-前贴片示例</string>
+
+    <string name="title_activity_worker">loading</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="no_bg">无背景</string>
+    <string name="board_color">画布颜色</string>
+    <string name="board_bg">画布背景</string>
+    <string name="colorsetting">颜色设置</string>
+    <string name="paint_color">画笔颜色</string>
+    <string name="drawseeting">绘画设置</string>
+    <string name="draw_line_count">划线数量</string>
+    <string name="draw_type">画笔类型</string>
+    <string name="pre_draw">预设图案</string>
+    <string name="no">\t无</string>
+    <string name="normal_type">普通模式</string>
+    <string name="fill_type">填充模式</string>
+    <string name="double_type">合并模式</string>
+    <string name="draw_board">画板</string>
+    <string name="undo">撤销</string>
+    <string name="clear">清空</string>
+    <string name="save">储存</string>
+    <string name="clearBackPic">清空背景图片</string>
+    <string name="clearBackColor">清空背景颜色</string>
+    <string name="line_size">画笔粗细</string>
+    <string name="title_activity_save">保存</string>
+    <string name="title_activity_logo_list_">logoList_</string>
+
+    <string name="save_local">导出到本地</string>
+    <string name="have_save">已经保存</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="sure_delete">确定删除？</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_PHONE_STATE</string>
+    <string name="permission_call_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CALL_PHONE</string>
+    <string name="permission_camera_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CAMERA</string>
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_recode_audio_hint">没有此权限，无法开启这个功能，请开启权限。PERMIS</string>
+</resources>

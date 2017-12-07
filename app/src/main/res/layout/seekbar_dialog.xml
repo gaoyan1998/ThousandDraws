@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.ml.thousandsdraw.model.smallView
+        android:id="@+id/seekbar_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <SeekBar
+        android:id="@+id/seekBar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/seekbar_content_view"/>
+</android.support.constraint.ConstraintLayout>

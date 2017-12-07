@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/child_view_draw_foot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/drawseeting"
+        android:textColor="@color/darkgreen"
+        android:textSize="@dimen/text_foot_size" />
+
+    <TextView
+        android:id="@+id/child_view_draw_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/draw_line_count"
+        android:textSize="@dimen/text_head_size"
+        app:layout_constraintTop_toBottomOf="@id/child_view_draw_foot"
+        />
+
+    <TextView
+        android:id="@+id/child_view_draw_count_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="\t8"
+        app:layout_constraintBottom_toBottomOf="@+id/child_view_draw_count"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/child_view_draw_count"
+        app:layout_constraintTop_toTopOf="@+id/child_view_draw_count" />
+
+    <View
+        android:id="@+id/child_view_divider1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dividesize"
+        android:layout_marginTop="@dimen/dividemargen"
+        android:background="@color/black_overlay"
+        app:layout_constraintTop_toBottomOf="@id/child_view_draw_count_text" />
+
+    <TextView
+        android:id="@+id/child_view_draw_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dividemargen"
+        android:text="@string/draw_type"
+        android:textSize="@dimen/text_head_size"
+        app:layout_constraintTop_toBottomOf="@id/child_view_divider1"
+        />
+
+    <TextView
+        android:id="@+id/child_view_draw_type_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/normal_type"
+        android:textColor="@color/cadetblue"
+        app:layout_constraintBottom_toBottomOf="@+id/child_view_draw_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/child_view_draw_type"
+        app:layout_constraintTop_toTopOf="@+id/child_view_draw_type" />
+    <View
+        android:id="@+id/child_view_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dividesize"
+        android:layout_marginTop="@dimen/dividemargen"
+        android:layout_marginBottom="@dimen/dividemargen"
+        android:background="@color/black_overlay"
+        app:layout_constraintTop_toBottomOf="@id/child_view_draw_type"
+        />
+    <TextView
+        android:id="@+id/child_view_pre_draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dividemargen"
+        android:text="@string/pre_draw"
+        android:textSize="@dimen/text_head_size"
+        app:layout_constraintTop_toBottomOf="@id/child_view_divider2" />
+
+    <TextView
+        android:id="@+id/child_view_pre_draw_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/no"
+        app:layout_constraintBottom_toBottomOf="@+id/child_view_pre_draw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/child_view_pre_draw"
+        app:layout_constraintTop_toTopOf="@+id/child_view_pre_draw" />
+    <View
+        android:id="@+id/child_view_divider3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dividesize"
+        android:layout_marginTop="@dimen/dividemargen"
+        android:layout_marginBottom="@dimen/dividemargen"
+        android:background="@color/black_overlay"
+        app:layout_constraintTop_toBottomOf="@id/child_view_pre_draw"
+        />
+    <TextView
+        android:text="@string/line_size"
+        android:id="@+id/line_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dividemargen"
+        android:textSize="@dimen/text_head_size"
+        app:layout_constraintTop_toBottomOf="@id/child_view_divider3" />
+
+    <TextView
+        android:id="@+id/child_view_linesize_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="  3"
+        app:layout_constraintBottom_toBottomOf="@+id/line_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/line_size"
+        app:layout_constraintTop_toTopOf="@+id/line_size" />
+    <View
+        android:id="@+id/child_view_divider4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dividesize"
+        android:layout_marginTop="@dimen/dividemargen"
+        android:layout_marginBottom="@dimen/dividemargen"
+        android:background="@color/black_overlay"
+        app:layout_constraintTop_toBottomOf="@id/line_size"
+        />
+</android.support.constraint.ConstraintLayout>
