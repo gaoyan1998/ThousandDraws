@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.ml.thousandsdraw.PreviewPageActivity;
 import com.ml.thousandsdraw.R;
 import com.ml.thousandsdraw.Worker;
 import com.ml.thousandsdraw.model.list_config;
@@ -52,7 +53,7 @@ public class logo_list_viewholder extends RecyclerView.ViewHolder implements Vie
     @Override
     public void onClick(View view) {
         int position = getAdapterPosition();
-        Intent intent = new Intent(context, Worker.class);
+        Intent intent = new Intent(context, PreviewPageActivity.class);
         intent.putExtra("bg_path",list_config.getBg_path());
         intent.putExtra("draw_path",list_config.getDraw_path());
         intent.putExtra("paint_color",list_config.getPaint_color());

@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:padding="10dp"
-            android:text="我的预览"
+            android:text="my preview"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <ImageView
@@ -28,8 +28,9 @@
     </LinearLayout>
 
     <LinearLayout
+        android:background="@mipmap/shadow_preview_bg"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:gravity="center_vertical|center_horizontal"
         android:orientation="horizontal">
 
