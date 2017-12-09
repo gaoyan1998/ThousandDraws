@@ -3,7 +3,9 @@ import android.widget.*;
 import java.util.*;
 import android.app.*;
 import android.os.*;
-import com.ml.thousandsdraw.util.*;
+
+import com.ml.thousandsdraw.Adapter.ViewPagerAdapter;
+
 import android.view.*;
 import android.view.View.*;
 import android.content.*;

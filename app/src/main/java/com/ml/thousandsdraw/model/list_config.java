@@ -3,11 +3,13 @@ package com.ml.thousandsdraw.model;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 
+import java.io.Serializable;
+
 /**
  * Created by 高岩 on 2017/11/19.
  */
 
-public class list_config {
+public class list_config implements Serializable{
     public int getID() {
         return ID;
     }

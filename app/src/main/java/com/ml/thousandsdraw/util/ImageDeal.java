@@ -1,14 +1,9 @@
 package com.ml.thousandsdraw.util;
 
-import android.app.Dialog;
 import android.content.res.*;
 import android.graphics.*;
 import android.view.*;
 import java.io.*;
-
-import android.os.*;
-
-import com.ml.thousandsdraw.dialog.SaveDialog;
 
 public class ImageDeal
 {

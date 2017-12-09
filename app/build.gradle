@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
-    aaptOptions.cruncherEnabled =false
-    aaptOptions.useNewCruncher =false
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
     defaultConfig {
         applicationId "com.ml.thousandsDraw"
         minSdkVersion 14
@@ -33,4 +33,6 @@ dependencies {
     })
     implementation files('libs/GDTUnionSDK.TBS.4.9.542.min.jar')
     implementation files('libs/pgyer_sdk_2.8.0.jar')
+    implementation files('libs/qqsdk.zip')
+    implementation files('libs/open_sdk_r5923_lite.jar')
 }

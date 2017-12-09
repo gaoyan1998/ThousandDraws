@@ -24,6 +24,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.ml.thousandsdraw.Adapter.logo_list_adapter;
+import com.ml.thousandsdraw.model.QQshareListener;
 import com.ml.thousandsdraw.sql.ListSqlHelp;
 import com.ml.thousandsdraw.util.Constants;
 import com.ml.thousandsdraw.util.PermissionUtils;
@@ -32,6 +33,8 @@ import com.pgyersdk.feedback.PgyFeedback;
 import com.qq.e.ads.banner.ADSize;
 import com.qq.e.ads.banner.AbstractBannerADListener;
 import com.qq.e.ads.banner.BannerView;
+import com.tencent.connect.share.QQShare;
+import com.tencent.tauth.Tencent;
 
 public class logoList_ extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -154,7 +157,16 @@ public class logoList_ extends AppCompatActivity implements NavigationView.OnNav
             builder.setMessage(getResources().getString(R.string.about));
             builder.show();
         } else if (id == R.id.nav_share) {
-            Toast.makeText(logoList_.this,"喜欢就推荐给身边的人吧！",Toast.LENGTH_SHORT).show();
+            Tencent tencent = Tencent.createInstance(Constants.APPID, logoList_.this);
+            final Bundle params = new Bundle();
+            params.putInt(QQShare.SHARE_TO_QQ_KEY_TYPE, QQShare.SHARE_TO_QQ_TYPE_DEFAULT);
+            params.putString(QQShare.SHARE_TO_QQ_TITLE, "千层画");
+            params.putString(QQShare.SHARE_TO_QQ_SUMMARY,  "hi，我在千层画里发布了一篇盖世神作哦！");
+            params.putString(QQShare.SHARE_TO_QQ_TARGET_URL,"http://a.app.qq.com/o/simple.jsp?pkgname=com.ml.thousandsDraw");
+            params.putString(QQShare.SHARE_TO_QQ_IMAGE_URL,"http://pp.myapp.com/ma_icon/0/icon_52414694_1511614973/96");
+            params.putString(QQShare.SHARE_TO_QQ_APP_NAME,  "返回千层画");
+            params.putInt(QQShare.SHARE_TO_QQ_EXT_INT,QQShare.SHARE_TO_QQ_FLAG_QZONE_ITEM_HIDE);
+            tencent.shareToQQ(logoList_.this, params, new QQshareListener());
         } else if (id == R.id.nav_send) {
             PermissionUtils.requestPermission(this, PermissionUtils.CODE_RECORD_AUDIO, mPermissionGrant);
             PgyFeedback.getInstance().showDialog(logoList_.this);

@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.ml.thousandsdraw.PreviewPageActivity;
 import com.ml.thousandsdraw.R;
-import com.ml.thousandsdraw.Worker;
+import com.ml.thousandsdraw.dialog.dialogs;
 import com.ml.thousandsdraw.model.list_config;
 import com.ml.thousandsdraw.sql.ListSqlHelp;
 
@@ -53,29 +53,20 @@ public class logo_list_viewholder extends RecyclerView.ViewHolder implements Vie
     @Override
     public void onClick(View view) {
         int position = getAdapterPosition();
-        Intent intent = new Intent(context, PreviewPageActivity.class);
+        Intent intent = new Intent(context,PreviewPageActivity.class);
         intent.putExtra("bg_path",list_config.getBg_path());
         intent.putExtra("draw_path",list_config.getDraw_path());
+        intent.putExtra("image_path",list_config.getImage_path());
         intent.putExtra("paint_color",list_config.getPaint_color());
         intent.putExtra("bg_color",list_config.getBg_color());
+        intent.putExtra("list_config",list_config);
         context.startActivity(intent);
     }
 
     @Override
     public boolean onLongClick(View view) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle(R.string.sure_delete);
-        builder.setMessage(R.string.sure_delete);
-        builder.setPositiveButton(R.string.sure,new DialogInterface.OnClickListener(){
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                ListSqlHelp help = new ListSqlHelp(context);
-                help.delete(list_config);
-                adapter.updata();
-            }
-        });
-        builder.setNegativeButton(R.string.cancel,null);
-        builder.show();
+        dialogs.deleteDialog(context,list_config);
+        adapter.updata();
         return true;
     }
 }

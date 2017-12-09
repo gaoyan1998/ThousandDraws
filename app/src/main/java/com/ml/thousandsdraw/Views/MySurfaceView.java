@@ -1,8 +1,6 @@
 package com.ml.thousandsdraw.Views;
 
-import android.app.Dialog;
 import android.content.*;
-import android.database.sqlite.SQLiteDatabase;
 import android.graphics.*;
 import android.support.design.widget.Snackbar;
 import android.util.*;
@@ -11,12 +9,10 @@ import android.widget.*;
 import java.io.*;
 
 import com.ml.thousandsdraw.R;
-import com.ml.thousandsdraw.dialog.SaveDialog;
 import com.ml.thousandsdraw.saveActivity;
 import com.ml.thousandsdraw.sql.ListSqlHelp;
 import com.ml.thousandsdraw.util.*;
 import android.os.*;
-import com.ml.thousandsdraw.ShareActivity;
 
 public class MySurfaceView extends SurfaceView implements
 		SurfaceHolder.Callback {

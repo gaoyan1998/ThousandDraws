@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\e82085ce32a5287f645a67b47054d876\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ac54a0ace3996090bdb7ad492e3b5bcd\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7d7ed4af9f865ee37195758696ad7f9a\AndroidManifest.xml:2:1-11:12
@@ -18,20 +18,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrat
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c92e37fc14f9eb345a774e3c28b8efaf\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\21e156badf0dbfe5c0541ce110e2df2e\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\58dc445efb1e259043e67f9724cd235b\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
+INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
 	package
 		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml
 		INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
 		INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-78:12
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:1-97:12
 		INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:2:11-69
@@ -80,7 +80,7 @@ ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:23:22-65
 application
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:26:5-76:19
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:26:5-95:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\e82085ce32a5287f645a67b47054d876\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\e82085ce32a5287f645a67b47054d876\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ac54a0ace3996090bdb7ad492e3b5bcd\AndroidManifest.xml:25:5-29:19
@@ -124,7 +124,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradl
 	android:name
 		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:27:9-47
 activity#com.pgyersdk.activity.FeedbackActivity
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:34:9-74
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:34:9-75
 	android:name
 		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:34:19-72
 activity#com.ml.thousandsdraw.ADactivity
@@ -145,70 +145,108 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:42:17-77
 	android:name
 		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:42:27-74
-service#com.qq.e.comm.DownloadService
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:46:9-48:40
-	android:exported
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:48:13-37
+activity#com.tencent.tauth.AuthActivity
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:45:9-55:20
+	android:launchMode
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:48:13-44
+	android:noHistory
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:47:13-57
-activity#com.qq.e.ads.ADActivity
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:50:9-52:86
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:46:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:49:13-54:29
+action#android.intent.action.VIEW
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:51:17-76
+	android:name
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:51:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:52:17-78
+	android:name
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:52:27-75
+data
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:53:17-60
+	android:scheme
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:53:23-57
+activity#com.tencent.connect.common.AssistActivity
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:56:9-61:20
+	android:screenOrientation
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:58:13-47
 	android:configChanges
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:52:13-83
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:60:13-63
+	android:theme
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:59:13-72
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:51:13-51
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:57:13-69
+service#com.qq.e.comm.DownloadService
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:62:9-64:40
+	android:exported
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:63:13-57
+activity#com.qq.e.ads.ADActivity
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:66:9-68:86
+	android:configChanges
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:68:13-83
+	android:name
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:67:13-51
 meta-data#PGYER_APPID
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:54:9-56:64
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:70:9-72:64
 	android:value
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:56:13-61
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:72:13-61
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:55:13-39
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:71:13-39
 activity#com.ml.thousandsdraw.logo
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:58:9-42
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:74:9-42
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:58:19-39
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:74:19-39
 activity#com.ml.thousandsdraw.ShareActivity
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:59:9-51
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:75:9-51
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:59:19-48
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:75:19-48
 activity#com.ml.thousandsdraw.ViewPager
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:60:9-47
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:76:9-47
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:60:19-44
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:76:19-44
 activity#com.ml.thousandsdraw.Worker
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:61:9-63:50
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:77:9-79:50
 	android:label
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:63:13-47
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:79:13-47
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:62:13-35
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:78:13-35
 activity#com.ml.thousandsdraw.saveActivity
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:64:9-67:47
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:80:9-83:47
 	android:label
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:66:13-56
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:82:13-56
 	android:theme
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:67:13-44
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:83:13-44
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:65:13-41
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:81:13-41
 activity#com.ml.thousandsdraw.logoList_
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:68:9-71:47
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:84:9-87:47
 	android:label
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:70:13-45
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:86:13-45
 	android:theme
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:71:13-44
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:87:13-44
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:69:13-38
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:85:13-38
 activity#com.ml.thousandsdraw.MainActivity
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:72:9-73:47
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:88:9-90:48
 	android:label
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:73:13-45
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:90:13-45
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:72:19-47
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:89:13-41
 activity#com.ml.thousandsdraw.PreviewPageActivity
-ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:74:9-75:47
+ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:91:9-94:52
 	android:label
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:75:13-45
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:93:13-31
+	android:icon
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:94:13-50
 	android:name
-		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:74:19-54
+		ADDED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml:92:13-48
 uses-sdk
 INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\workSpace\androidStudio\Androidworker\old\4\app\src\main\AndroidManifest.xml

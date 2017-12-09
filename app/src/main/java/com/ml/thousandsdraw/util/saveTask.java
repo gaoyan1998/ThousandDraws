@@ -4,7 +4,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.ml.thousandsdraw.dialog.SaveDialog;
+import com.ml.thousandsdraw.dialog.dialogs;
 
 import java.util.ArrayList;
 
@@ -26,7 +26,7 @@ class saveTask extends AsyncTask<Void,Void,Void> {
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
-        dialog = SaveDialog.showDefaultDialog(context,"正在保存");
+        dialog = dialogs.showDefaultDialog(context,"正在保存");
         dialog.setCancelable(false);
 
     }

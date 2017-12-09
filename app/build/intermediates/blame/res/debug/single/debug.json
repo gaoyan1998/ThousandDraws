@@ -752,6 +752,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_previewtitle.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\previewtitle.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
@@ -1258,10 +1262,6 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_shadow_preview_bg.9.png.flat",
-        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-xhdpi\\shadow_preview_bg.9.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_gdt_ic_play.png.flat",
@@ -2198,6 +2198,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_preview_bg.9.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\shadow_preview_bg.9.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",

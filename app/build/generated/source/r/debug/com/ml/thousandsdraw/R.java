@@ -3750,10 +3750,12 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f08007e;
     public static final int notification_tile_bg=0x7f08007f;
     public static final int notify_panel_notification_icon_bg=0x7f080080;
-    public static final int side_nav_bar=0x7f080081;
-    public static final int splash_holder=0x7f080082;
-    public static final int tooltip_frame_dark=0x7f080083;
-    public static final int tooltip_frame_light=0x7f080084;
+    public static final int previewtitle=0x7f080081;
+    public static final int shadow_preview_bg=0x7f080082;
+    public static final int side_nav_bar=0x7f080083;
+    public static final int splash_holder=0x7f080084;
+    public static final int tooltip_frame_dark=0x7f080085;
+    public static final int tooltip_frame_light=0x7f080086;
   }
   public static final class id {
     public static final int ALT=0x7f090000;
@@ -3931,7 +3933,7 @@ public final class R {
     public static final int preview_rename=0x7f0900ac;
     public static final int preview_save=0x7f0900ad;
     public static final int preview_share=0x7f0900ae;
-    public static final int preview_title=0x7f0900af;
+    public static final int preview_toolbar=0x7f0900af;
     public static final int progress_circular=0x7f0900b0;
     public static final int progress_horizontal=0x7f0900b1;
     public static final int radio=0x7f0900b2;
@@ -4181,12 +4183,11 @@ public final class R {
     public static final int icon_save=0x7f0d002c;
     public static final int icon_share=0x7f0d002d;
     public static final int lunacher_=0x7f0d002e;
-    public static final int shadow_preview_bg=0x7f0d002f;
-    public static final int slide_button=0x7f0d0030;
-    public static final int splash=0x7f0d0031;
-    public static final int switch_background=0x7f0d0032;
-    public static final int title_back=0x7f0d0033;
-    public static final int toolbutton=0x7f0d0034;
+    public static final int slide_button=0x7f0d002f;
+    public static final int splash=0x7f0d0030;
+    public static final int switch_background=0x7f0d0031;
+    public static final int title_back=0x7f0d0032;
+    public static final int toolbutton=0x7f0d0033;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0e0000;
