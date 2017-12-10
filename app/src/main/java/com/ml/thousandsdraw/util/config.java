@@ -10,5 +10,8 @@ public class config {
     public static final String TAG = "tag";
     public static final String NUll_PATH = "0xnull";
 
-    public static final String SAVE_PATH_TOADCARD = Environment.getExternalStorageDirectory() + "/tdw/";
+    public static final String SAVE_PATH_TOADCARD = Environment.
+            getExternalStorageDirectory() + "/tdw/";
+    public static final String SAVE_PATH_TO_LOCAL_CACHE = SAVE_PATH_TOADCARD+"cache/c"+".png";
+
 }

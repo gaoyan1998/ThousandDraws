@@ -36,36 +36,40 @@ public class saveActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        initView();
+
+        Intent geti = getIntent();
+        String file = geti.getStringExtra("msv");
+        final File f = new File(file);
+//        TextView tv = (TextView) findViewById(R.id.shareTextView1);
+//        TextView tv2 = (TextView) findViewById(R.id.shareTextView2m);
+//        saveImg = (ImageView) findViewById(R.id.shareImageView1);
+//        tv2.setText("图片已经保存到"+file);
+//        Bitmap bm = BitmapFactory.decodeFile(file);
+//        saveImg.setImageBitmap(bm);
+//        tv.setOnClickListener(new View.OnClickListener(){
+//
+//            @Override
+//            public void onClick(View p1)
+//            {
+//                Intent i = new Intent(Intent.ACTION_SEND);
+//                i.setType("image/*");
+//                Uri ui = Uri.fromFile(f);
+//                i.putExtra(Intent.EXTRA_STREAM,ui);
+//                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                i.putExtra(Intent.EXTRA_SUBJECT, "千层画分享");
+//                i.putExtra(Intent.EXTRA_TEXT, "Hi！我在千层画设计了一幅盖世之作！快来为我点赞吧！");
+//                startActivity(Intent.createChooser(i, getTitle()));
+//            }
+//        });
+    }
+
+    private void initView() {
         //广告
         bannerContainer = (ViewGroup) this.findViewById(R.id.bannerContainer);
         this.findViewById(R.id.closeBanner).setOnClickListener(this);
         this.initBanner();
         this.bv.loadAD();
-
-        Intent geti = getIntent();
-        String file = geti.getStringExtra("msv");
-        final File f = new File(file);
-        TextView tv = (TextView) findViewById(R.id.shareTextView1);
-        TextView tv2 = (TextView) findViewById(R.id.shareTextView2m);
-        saveImg = (ImageView) findViewById(R.id.shareImageView1);
-        tv2.setText("图片已经保存到"+file);
-        Bitmap bm = BitmapFactory.decodeFile(file);
-        saveImg.setImageBitmap(bm);
-        tv.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View p1)
-            {
-                Intent i = new Intent(Intent.ACTION_SEND);
-                i.setType("image/*");
-                Uri ui = Uri.fromFile(f);
-                i.putExtra(Intent.EXTRA_STREAM,ui);
-                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                i.putExtra(Intent.EXTRA_SUBJECT, "千层画分享");
-                i.putExtra(Intent.EXTRA_TEXT, "Hi！我在千层画设计了一幅盖世之作！快来为我点赞吧！");
-                startActivity(Intent.createChooser(i, getTitle()));
-            }
-        });
     }
 
     private void initBanner() {

@@ -4,12 +4,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_gallery.xml.flat",
-        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ucrop_ic_next.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxhdpi-v4\\ucrop_ic_next.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_back_focus.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\back_focus.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_gallery.xml.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -32,6 +36,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ucrop_ic_crop.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxhdpi-v4\\ucrop_ic_crop.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
@@ -40,12 +48,12 @@
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\layout\\preview_page.xml"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -84,24 +92,24 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_switch_background.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\switch_background.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -120,6 +128,10 @@
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\layout\\activity_logo_list.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ucrop_ic_rotate.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-mdpi-v4\\ucrop_ic_rotate.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
@@ -136,24 +148,32 @@
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_ucrop_layout_scale_wheel.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\layout\\ucrop_layout_scale_wheel.xml"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_share_gray.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\share_gray.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
@@ -192,8 +212,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ucrop_ic_next.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-hdpi-v4\\ucrop_ic_next.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_dialog_title_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_share_towechat.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\share_towechat.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -202,6 +230,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ucrop_ic_scale.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-hdpi-v4\\ucrop_ic_scale.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
@@ -226,6 +258,14 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon_headpic.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\icon_headpic.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ucrop_ic_angle.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxxhdpi-v4\\ucrop_ic_angle.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
@@ -276,6 +316,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ucrop_ic_next.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxxhdpi-v4\\ucrop_ic_next.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
@@ -286,6 +330,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg3.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\bg3.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon_crop.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\icon_crop.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
@@ -306,6 +354,14 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ucrop_ic_crop.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxxhdpi-v4\\ucrop_ic_crop.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\anim_ucrop_loader_circle_scale.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\anim\\ucrop_loader_circle_scale.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_gdt_ic_seekbar_background.9.png.flat",
@@ -352,6 +408,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_share_towechatpyq.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\share_towechatpyq.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -362,6 +422,14 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ucrop_vector_loader_animated.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable\\ucrop_vector_loader_animated.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ucrop_ic_angle.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-mdpi-v4\\ucrop_ic_angle.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
@@ -380,6 +448,10 @@
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\gdt_ic_seekbar_progress.9.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ucrop_ic_crop.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-hdpi-v4\\ucrop_ic_crop.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -396,6 +468,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\drawable\\design_password_eye.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ucrop_ic_angle.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xhdpi-v4\\ucrop_ic_angle.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\layout\\design_bottom_navigation_item.xml"
     },
@@ -406,6 +482,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg_save.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\bg_save.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ucrop_ic_done.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-ldpi-v4\\ucrop_ic_done.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_send.xml.flat",
@@ -460,6 +540,14 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon_croup_big.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\icon_croup_big.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ucrop_ic_angle.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-ldpi-v4\\ucrop_ic_angle.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_bg_normal.xml.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\btn_bg_normal.xml"
     },
@@ -508,12 +596,20 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ucrop_shadow_upside.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable\\ucrop_shadow_upside.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ucrop_ic_angle.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxhdpi-v4\\ucrop_ic_angle.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_gdt_ic_download.png.flat",
@@ -538,6 +634,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ucrop_ic_reset.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-hdpi-v4\\ucrop_ic_reset.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -684,12 +784,12 @@
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\btn_blue_on.png"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_share.xml.flat",
-        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\layout\\share.xml"
-    },
-    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ucrop_ic_done.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-mdpi-v4\\ucrop_ic_done.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -702,6 +802,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ucrop_ic_done.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xhdpi-v4\\ucrop_ic_done.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -758,6 +862,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_ucrop_activity_photobox.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\layout\\ucrop_activity_photobox.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
@@ -836,6 +944,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ucrop_ic_reset.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxxhdpi-v4\\ucrop_ic_reset.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_dw_1.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\bg_dw_1.png"
     },
@@ -858,6 +970,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ucrop_ic_cross.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-hdpi-v4\\ucrop_ic_cross.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_slideshow.xml.flat",
@@ -952,6 +1068,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_croup_child.xml.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\layout\\croup_child.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
@@ -988,12 +1108,24 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0fc7a7658b42e253ab860c2bc517d388\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ucrop_ic_rotate.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxxhdpi-v4\\ucrop_ic_rotate.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ucrop_ic_cross.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-ldpi-v4\\ucrop_ic_cross.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ucrop_ic_crop.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-ldpi-v4\\ucrop_ic_crop.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -1056,6 +1188,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\anim_ucrop_loader_circle_path.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\anim\\ucrop_loader_circle_path.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -1094,6 +1230,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_gdt_ic_enter_fullscreen.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\gdt_ic_enter_fullscreen.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ucrop_ic_cross.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-mdpi-v4\\ucrop_ic_cross.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_gdt_ic_volume_on.png.flat",
@@ -1136,6 +1276,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\menu_ucrop_menu_activity.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\menu\\ucrop_menu_activity.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -1160,6 +1304,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ucrop_ic_angle.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-hdpi-v4\\ucrop_ic_angle.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -1176,6 +1324,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ucrop_ic_done.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-hdpi-v4\\ucrop_ic_done.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -1190,6 +1342,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_button.xml.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\background_button.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ucrop_ic_scale.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxxhdpi-v4\\ucrop_ic_scale.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
@@ -1252,6 +1408,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ucrop_vector_loader.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable\\ucrop_vector_loader.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -1304,6 +1464,14 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ucrop_ic_next.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-ldpi-v4\\ucrop_ic_next.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\color_ucrop_scale_text_view_selector.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\color\\ucrop_scale_text_view_selector.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -1340,6 +1508,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_ucrop_aspect_ratio.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\layout\\ucrop_aspect_ratio.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\layout\\abc_alert_dialog_material.xml"
     },
@@ -1362,6 +1534,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon_share.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\icon_share.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_ucrop_controls.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\layout\\ucrop_controls.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1414,6 +1590,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ucrop_ic_scale.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxhdpi-v4\\ucrop_ic_scale.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
@@ -1484,12 +1664,28 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ucrop_ic_next.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xhdpi-v4\\ucrop_ic_next.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ucrop_ic_reset.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xhdpi-v4\\ucrop_ic_reset.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ucrop_ic_reset.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-mdpi-v4\\ucrop_ic_reset.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cancel.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\ic_cancel.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ucrop_ic_crop.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xhdpi-v4\\ucrop_ic_crop.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_gdt_ic_pause.png.flat",
@@ -1520,12 +1716,20 @@
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\btn_resize.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ucrop_ic_scale.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-ldpi-v4\\ucrop_ic_scale.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\anim_tooltip_exit.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ucrop_ic_scale.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xhdpi-v4\\ucrop_ic_scale.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -1556,8 +1760,24 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ucrop_ic_scale.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-mdpi-v4\\ucrop_ic_scale.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_list.9.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\shadow_list.9.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ucrop_ic_reset.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-ldpi-v4\\ucrop_ic_reset.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_share_toqzone.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\share_toqzone.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -1568,8 +1788,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ucrop_vector_ic_crop.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable\\ucrop_vector_ic_crop.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ucrop_ic_done.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxhdpi-v4\\ucrop_ic_done.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -1586,6 +1814,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_ucrop_view.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\layout\\ucrop_view.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1618,6 +1850,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_text.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ucrop_ic_rotate.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-ldpi-v4\\ucrop_ic_rotate.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg2.png.flat",
@@ -1712,12 +1948,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ucrop_ic_reset.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxhdpi-v4\\ucrop_ic_reset.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
@@ -1732,6 +1972,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_share_content.xml.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\layout\\share_content.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable\\notification_bg_low.xml"
     },
@@ -1742,6 +1986,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ucrop_ic_rotate.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxhdpi-v4\\ucrop_ic_rotate.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
@@ -1766,6 +2014,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ucrop_ic_crop.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-mdpi-v4\\ucrop_ic_crop.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1794,6 +2046,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_share_popwindow.xml.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\layout\\share_popwindow.xml"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_hide.png.flat",
@@ -1828,6 +2084,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ucrop_ic_rotate.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-hdpi-v4\\ucrop_ic_rotate.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -1850,6 +2110,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ucrop_ic_rotate.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xhdpi-v4\\ucrop_ic_rotate.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
@@ -1882,6 +2146,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ucrop_ic_done.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxxhdpi-v4\\ucrop_ic_done.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -1922,6 +2190,10 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_logo_list_child.xml.flat",
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\layout\\content_logo_list_child.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ucrop_ic_next.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-mdpi-v4\\ucrop_ic_next.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_worker.xml.flat",
@@ -2008,8 +2280,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_ucrop_layout_rotate_wheel.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\layout\\ucrop_layout_rotate_wheel.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ucrop_ic_cross.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxxhdpi-v4\\ucrop_ic_cross.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
@@ -2058,6 +2338,14 @@
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\anim_share_in.xml.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\anim\\share_in.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ucrop_ic_cross.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xxhdpi-v4\\ucrop_ic_cross.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -2124,12 +2412,24 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_preview.9.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\shadow_preview.9.png"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\anim_share_out.xml.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\anim\\share_out.xml"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\21e156badf0dbfe5c0541ce110e2df2e\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_share_toqq.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\mipmap-mdpi\\share_toqq.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
@@ -2176,6 +2476,10 @@
         "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ucrop_ic_cross.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.1-native.aar\\65e38b8fc1d5a9442a787b726bdaa2c9\\res\\drawable-xhdpi-v4\\ucrop_ic_cross.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\layout\\design_navigation_menu.xml"
     },
@@ -2192,16 +2496,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\e82085ce32a5287f645a67b47054d876\\res\\drawable\\design_fab_background.xml"
     },
     {
+        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_preview_bg.9.png.flat",
+        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\shadow_preview_bg.9.png"
+    },
+    {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow_preview_bg.9.png.flat",
-        "source": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\src\\main\\res\\drawable\\shadow_preview_bg.9.png"
     },
     {
         "merged": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",

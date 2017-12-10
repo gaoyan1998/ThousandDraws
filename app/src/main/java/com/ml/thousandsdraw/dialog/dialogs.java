@@ -37,4 +37,7 @@ public class dialogs {
         builder.setNegativeButton(R.string.cancel,null);
         builder.show();
     }
+    public static void croupSelected(){
+
+    }
 }

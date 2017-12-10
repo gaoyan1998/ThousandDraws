@@ -1,4 +1,4 @@
-#Sat Dec 09 12:14:52 CST 2017
-base.0=C\:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24
+#Sun Dec 10 09:39:48 CST 2017
+base.0=C\:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

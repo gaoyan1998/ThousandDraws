@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="100dp"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:background="@drawable/shadow_list"
     android:orientation="vertical"
-    android:padding="10dp"
-    >
+    android:padding="10dp">
 
-<LinearLayout
-    android:background="@color/aliceblue"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
-    <ImageView
-        android:scaleType="centerCrop"
-        android:id="@+id/logo_child_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginRight="10dp"/>
-
-    <TextView
-        android:id="@+id/logo_child_text"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="error"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        android:background="@color/aliceblue"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <ImageView
+            android:id="@+id/logo_child_image"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/logo_child_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="error"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    </LinearLayout>
 
 </LinearLayout>

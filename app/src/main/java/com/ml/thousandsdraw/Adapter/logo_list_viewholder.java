@@ -43,7 +43,7 @@ public class logo_list_viewholder extends RecyclerView.ViewHolder implements Vie
         title_image.setImageBitmap(bm);
     }
     public void setTitle_text() {
-        title_text.setText(list_config.getImage_path());
+        title_text.setText("千层画");
     }
     public void setList_config(list_config list_config){
         this.list_config = list_config;

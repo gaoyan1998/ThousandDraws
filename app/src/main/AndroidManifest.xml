@@ -66,13 +66,14 @@
         <activity
             android:name="com.qq.e.ads.ADActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
-
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"/>
         <meta-data
             android:name="PGYER_APPID"
             android:value="09428107edcdb807798106f8ea13f089" />
 
         <activity android:name=".logo" />
-        <activity android:name=".ShareActivity" />
         <activity android:name=".ViewPager" />
         <activity
             android:name=".Worker"

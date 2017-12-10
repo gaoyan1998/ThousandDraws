@@ -13,6 +13,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.OrientationHelper;
 import android.support.v7.widget.RecyclerView;
@@ -84,7 +85,8 @@ public class logoList_ extends AppCompatActivity implements NavigationView.OnNav
         ListSqlHelp listSqlHelp = new ListSqlHelp(logoList_.this);
         recyclerView = logoList_.this.findViewById(R.id.logo_recyclerView);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, OrientationHelper.VERTICAL,false);
-        recyclerView.setLayoutManager(linearLayoutManager);
+        GridLayoutManager manager = new GridLayoutManager(logoList_.this,2);
+        recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(new logo_list_adapter(logoList_.this));
         //设置分隔线
         //recyclerView.addItemDecoration( new DividerGridItemDecoration(this ));

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/share_toqzone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/share_toqzone" />
+
+    <ImageView
+        android:id="@+id/share_toqq"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/share_toqq" />
+
+    <ImageView
+        android:id="@+id/share_towechat"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/share_towechat" />
+
+    <ImageView
+        android:id="@+id/share_towechatpyq"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/share_towechatpyq" />
+
+    <ImageView
+        android:id="@+id/share_toother"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/share_gray" />
+
+</LinearLayout>

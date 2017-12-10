@@ -29,4 +29,8 @@
         <item name="android:background">@color/black_overlay</item>
     </style>
 
+    <style name="share_pop_anim">
+        <item name="android:windowEnterAnimation">@anim/share_in</item>
+        <item name="android:windowExitAnimation">@anim/share_out</item>
+    </style>
 </resources>
