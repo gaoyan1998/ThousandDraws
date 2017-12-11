@@ -9,6 +9,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.ml.thousandsdraw.dialog.dialogs;
+import com.ml.thousandsdraw.model.PathModel;
 import com.ml.thousandsdraw.saveActivity;
 
 import java.io.File;
@@ -21,22 +22,17 @@ import java.util.ArrayList;
  * Created by 高岩 on 2017/11/27.
  */
 
-class saveTask extends AsyncTask<Void,Void,Boolean> {
+public class saveTask extends AsyncTask<Void,Void,Boolean> {
 
     private Dialog dialog;
     private Context context;
-    private String path;
-    private Bitmap bmp;
-    private String bitName;
-    private Boolean isLocal = false;
+    ArrayList<PathModel> list;
+    OnSaved Isave;
 
-    public saveTask(Context context,String path,Bitmap bmp,String name,Boolean isLocal) {
+    public saveTask(Context context, ArrayList<PathModel> list,OnSaved Isave) {
         this.context = context;
-        this.path = path;
-        this.bitName = name;
-        this.bmp = bmp;
-        this.isLocal = isLocal;
-        Log.i("tag",""+isLocal);
+        this.list =  list;
+        this.Isave = Isave;
     }
 
     @Override
@@ -49,17 +45,20 @@ class saveTask extends AsyncTask<Void,Void,Boolean> {
 
     @Override
     protected Boolean doInBackground(Void... voids) {
-            File dirFile = new File(path);
+
+        for (int i = 0; i < list.size(); i++){
+            boolean flag = false;
+            PathModel model= list.get(i);
+            File dirFile = new File(model.getPath());
             if (!dirFile.exists()) {
                 dirFile.mkdirs();
             }
-            File f = new File(path + bitName);
-            boolean flag = false;
+            File f = new File(model.getPath() + model.getName());
             FileOutputStream fOut = null;
             try {
                 f.createNewFile();
                 fOut = new FileOutputStream(f);
-                bmp.compress(Bitmap.CompressFormat.PNG, 100, fOut);
+                model.getBitmap().compress(Bitmap.CompressFormat.PNG, 100, fOut);
                 flag = true;
             } catch (Exception e) {
                 e.printStackTrace();
@@ -75,6 +74,7 @@ class saveTask extends AsyncTask<Void,Void,Boolean> {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
         return true;
     }
 
@@ -82,12 +82,11 @@ class saveTask extends AsyncTask<Void,Void,Boolean> {
     protected void onPostExecute(Boolean aBoolean) {
         super.onPostExecute(aBoolean);
         dialog.cancel();
-        Toast.makeText(context,"保存成功",Toast.LENGTH_SHORT).show();
-        if(isLocal){
-            Intent i = new Intent();
-            i.setClass(context,saveActivity.class);
-            i.putExtra("msv",path + bitName);
-            context.startActivity(i);
+        if (Isave != null){
+            Isave.onSave(list);
         }
+    }
+    public interface OnSaved{
+        void onSave(ArrayList<PathModel> list);
     }
 }

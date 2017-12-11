@@ -4,11 +4,9 @@ import android.content.Context;
 import android.content.res.*;
 import android.graphics.*;
 import android.view.*;
-import java.io.*;
 
 public class ImageDeal
 {
-	
 	//设置新图片宽高
 	public static Bitmap zoomImg(Bitmap bm, int newWidth ,int newHeight){   
 		// 获得图片的宽高   
@@ -26,17 +24,17 @@ public class ImageDeal
 	}  
 	//压缩图片
 
-	public static Bitmap decodeSampledBitmapFromResource(Resources res, int resId, 
+	public static Bitmap decodeSampledBitmapFromFile(String path,
 														 int reqWidth, int reqHeight) { 
 // 第一次解析将inJustDecodeBounds设置为true，来获取图片大小 
 		final BitmapFactory.Options options = new BitmapFactory.Options(); 
-		options.inJustDecodeBounds = true; 
-		BitmapFactory.decodeResource(res, resId, options); 
-// 调用上面定义的方法计算inSampleSize值 
+		options.inJustDecodeBounds = true;
+		BitmapFactory.decodeFile(path,options);
+// 调用上面定义的方法计算inSampleSize值
 		options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight); 
 // 使用获取到的inSampleSize值再次解析图片 
 		options.inJustDecodeBounds = false; 
-		return BitmapFactory.decodeResource(res, resId, options); 
+		return 	BitmapFactory.decodeFile(path,options);
 	}
 	
 //计算缩放值
@@ -67,6 +65,6 @@ public class ImageDeal
 		}
 		//将bitmap存为文件
 	public static void saveMyBitmap(Context context,Bitmap bmp, String path, String bitName,Boolean isLocal){
-		new saveTask(context,path,bmp,bitName,isLocal).execute();
+		//new saveTask(context,path,bmp,bitName,isLocal).execute();
 	}
 }

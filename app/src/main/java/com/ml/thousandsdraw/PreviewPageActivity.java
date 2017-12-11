@@ -40,6 +40,7 @@ public class PreviewPageActivity extends AppCompatActivity implements View.OnCli
     private Intent intent;
     private Toolbar toolbar;
     list_config list_config;
+    private String path;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +64,8 @@ public class PreviewPageActivity extends AppCompatActivity implements View.OnCli
         findViewById(R.id.preview_save).setOnClickListener(this);
         findViewById(R.id.preview_share).setOnClickListener(this);
 
-        previewImage.setImageBitmap(BitmapFactory.decodeFile(
-                list_config.getImage_path()+".png"));
+        path = list_config.getImage_path();
+        previewImage.setImageBitmap(BitmapFactory.decodeFile(path));
     }
     private void CreateSeleteDialog(){
         LayoutInflater inflater = LayoutInflater.from(PreviewPageActivity.this);
@@ -76,7 +77,7 @@ public class PreviewPageActivity extends AppCompatActivity implements View.OnCli
         builder.show();
     }
     private void startCroup(int type){
-        Uri uri = Uri.fromFile(new File(list_config.getImage_path()+".png"));
+        Uri uri = Uri.fromFile(new File(list_config.getImage_path()));
         PicCrop.cropFromUri(PreviewPageActivity.this,
                 uri,
                 config.SAVE_PATH_TOADCARD,
@@ -110,13 +111,13 @@ public class PreviewPageActivity extends AppCompatActivity implements View.OnCli
                 startActivity(intent);
                 break;
             case R.id.preview_save:
-                String newPath =  mfileUtil.copyFile(list_config.getImage_path()+".png", config.SAVE_PATH_TOADCARD);
+                String newPath =  mfileUtil.copyFile(path, config.SAVE_PATH_TOADCARD);
                 intent.setClass(PreviewPageActivity.this,saveActivity.class);
                 intent.putExtra("msv",newPath);
                 startActivity(intent);
                 break;
             case R.id.preview_share:
-                mfileUtil.copyFile(list_config.getImage_path()+".png", config.SAVE_PATH_TO_LOCAL_CACHE);
+                mfileUtil.copyFile(path, config.SAVE_PATH_TO_LOCAL_CACHE);
                 shareUtil.createShareWindow(PreviewPageActivity.this,
                         PreviewPageActivity.this.findViewById(R.id.preview_rootview),
                         config.SAVE_PATH_TO_LOCAL_CACHE + new File(list_config.getImage_path()).getName()+".png");

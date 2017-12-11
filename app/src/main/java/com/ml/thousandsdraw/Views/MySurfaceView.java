@@ -7,8 +7,10 @@ import android.util.*;
 import android.view.*;
 import android.widget.*;
 import java.io.*;
+import java.util.ArrayList;
 
 import com.ml.thousandsdraw.R;
+import com.ml.thousandsdraw.model.PathModel;
 import com.ml.thousandsdraw.saveActivity;
 import com.ml.thousandsdraw.sql.ListSqlHelp;
 import com.ml.thousandsdraw.util.*;
@@ -67,35 +69,50 @@ public class MySurfaceView extends SurfaceView implements
 		catch (Exception e)
 		{}
 	}
-	public boolean saveToDAta()
-	{
+	public boolean saveToDAta() {
 		drawToScreen();
 		drawCache();
 		String bg_path = c.getFilesDir() + "/bg_/tdw/" + System.currentTimeMillis();
 		String draw_path = c.getFilesDir() + "/draw_/tdw/" + System.currentTimeMillis();
-		try {
-			ImageDeal.saveMyBitmap(c,backBitmap, bg_path,".png",false);
-			ImageDeal.saveMyBitmap(c,cacheBitmap,draw_path,".png",false);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 		String cache_path = c.getFilesDir() + "/cache_/tdw/" + System.currentTimeMillis();
+		ImageDeal.saveMyBitmap(c,backBitmap, bg_path,".png",false);
+		ImageDeal.saveMyBitmap(c,cacheBitmap,draw_path,".png",false);
+
 		saveToLocal(cache_path);
 		ListSqlHelp listSqlHelp = new ListSqlHelp(c);
 		listSqlHelp.insertData(bg_path,draw_path,cache_path,backColor,color,FRAME_WIDTH,FRAME_HEIGHT);
 		return true;
 	}
-	public void save(String[] paths){
-		Bitmap bitmap = Bitmap.createBitmap(FRAME_WIDTH,FRAME_HEIGHT, Bitmap.Config.ARGB_8888);
-		Canvas canvas = new Canvas(bitmap);
+	public void save(Boolean saveTosd,saveTask.OnSaved Isave){
+		Bitmap MergeBitmap = Bitmap.createBitmap(FRAME_WIDTH,FRAME_HEIGHT, Bitmap.Config.ARGB_8888);
+		Canvas canvas = new Canvas(MergeBitmap);
 		drawToScreen();
 		drawCache();
 		drawBack(canvas);
 
-		for (String path:paths){
-			ImageDeal.saveMyBitmap(c,backBitmap, path,".png",false);
+		ArrayList<PathModel> pathList = new ArrayList<PathModel>();
+		String BgPath = c.getFilesDir() + "/bg_/tdw/";
+		String DrawPath = c.getFilesDir() + "/draw_/tdw/";
+		String MergePath = c.getFilesDir() + "/cache_/tdw/";
+
+		pathList.add(new PathModel(BgPath,
+				System.currentTimeMillis()+".png",backBitmap));
+		pathList.add(new PathModel(DrawPath,
+				System.currentTimeMillis()+".png",cacheBitmap));
+		pathList.add(new PathModel(MergePath,
+				System.currentTimeMillis()+".png",MergeBitmap));
+		if(saveTosd){
+			pathList.add(new PathModel( Environment.getExternalStorageDirectory() + "/tdw/",
+					System.currentTimeMillis()+".png",MergeBitmap));
 		}
 
+		ListSqlHelp listSqlHelp = new ListSqlHelp(c);
+		listSqlHelp.insertData(BgPath+pathList.get(0).getName(),
+				DrawPath+pathList.get(1).getName(),
+				MergePath+pathList.get(2).getName(),
+				backColor,color,FRAME_WIDTH,FRAME_HEIGHT);
+
+		new saveTask(c,pathList,Isave).execute();
 	}
 	public void initView() {
 		mSurfaceHolder = getHolder();

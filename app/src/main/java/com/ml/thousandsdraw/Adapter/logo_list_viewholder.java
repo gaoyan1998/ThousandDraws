@@ -16,6 +16,7 @@ import com.ml.thousandsdraw.R;
 import com.ml.thousandsdraw.dialog.dialogs;
 import com.ml.thousandsdraw.model.list_config;
 import com.ml.thousandsdraw.sql.ListSqlHelp;
+import com.ml.thousandsdraw.util.ImageDeal;
 
 /**
  * Created by 高岩 on 2017/11/19.
@@ -39,15 +40,18 @@ public class logo_list_viewholder extends RecyclerView.ViewHolder implements Vie
         this.adapter = adapter;
     }
     public void setTitle_image(){
-        Bitmap bm = BitmapFactory.decodeFile(list_config.getImage_path()+".png");
-        title_image.setImageBitmap(bm);
+        String path = list_config.getImage_path();
+        Bitmap bitmap = ImageDeal.decodeSampledBitmapFromFile(path,400,400);
+        title_image.setImageBitmap(bitmap);
+
     }
     public void setTitle_text() {
         title_text.setText("千层画");
     }
     public void setList_config(list_config list_config){
         this.list_config = list_config;
-        setTitle_text();setTitle_image();
+        setTitle_text();
+        setTitle_image();
     }
 
     @Override

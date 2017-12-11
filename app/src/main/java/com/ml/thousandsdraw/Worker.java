@@ -17,13 +17,18 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.ml.thousandsdraw.Views.MySurfaceView;
 import com.ml.thousandsdraw.Views.workerToolBar;
+import com.ml.thousandsdraw.model.PathModel;
+import com.ml.thousandsdraw.model.list_config;
 import com.ml.thousandsdraw.util.ImageDeal;
 import com.ml.thousandsdraw.util.config;
+import com.ml.thousandsdraw.util.saveTask;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Worker extends AppCompatActivity {
 
@@ -60,12 +65,19 @@ public class Worker extends AppCompatActivity {
         }
     }
     private void ininData(){
-        String draw_path = getIntent().getStringExtra("draw_path")+".png";
-        String bg_path = getIntent().getStringExtra("bg_path")+".png";
+        list_config config = (list_config) getIntent().getSerializableExtra("list_config");
+        String draw_path = getIntent().getStringExtra("draw_path");
+        String bg_path = getIntent().getStringExtra("bg_path");
         int paint_color = getIntent().getIntExtra("paint_color",Color.BLACK);
         int bg_color = getIntent().getIntExtra("bg_color", Color.WHITE);
         DrawBoard.loadData(bg_path,draw_path,paint_color,bg_color);
         Log.i("tag",draw_path);
+    }
+    private void startResultActivity(String path){
+        Intent i = new Intent();
+        i.setClass(Worker.this,saveActivity.class);
+        i.putExtra("msv",path);
+        startActivity(i);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -75,7 +87,7 @@ public class Worker extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(final MenuItem item) {
         switch (item.getItemId()){
             case R.id.action_clear:
                 DrawBoard.reset();
@@ -84,7 +96,12 @@ public class Worker extends AppCompatActivity {
                 DrawBoard.drawRevoke();
                 break;
             case R.id.action_save:
-                DrawBoard.saveToDAta();
+                DrawBoard.save(false, new saveTask.OnSaved() {
+                    @Override
+                    public void onSave(ArrayList<PathModel> list) {
+                        Snackbar.make(DrawBoard,"保存成功",Snackbar.LENGTH_SHORT).show();
+                    }
+                });
                 break;
             case R.id.action_restBackPic:
                 DrawBoard.restBackPic();
@@ -93,7 +110,13 @@ public class Worker extends AppCompatActivity {
                 DrawBoard.restBackColor();
                 break;
             case R.id.action_save_local:
-                DrawBoard.saveToLocal(null);
+                DrawBoard.save(true, new saveTask.OnSaved() {
+                    @Override
+                    public void onSave(ArrayList<PathModel> list) {
+                        PathModel model = list.get(list.size()-1);
+                        startResultActivity(model.getPath()+model.getName());
+                    }
+                });
                 break;
         }
         return true;
