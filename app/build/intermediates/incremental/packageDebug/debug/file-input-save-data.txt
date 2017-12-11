@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Dec 10 12:17:59 CST 2017
+#Sun Dec 10 16:21:25 CST 2017
 4.path=splash.png
 8.set=NATIVE_RESOURCE
 6.path=classes.dex

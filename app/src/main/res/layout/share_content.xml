@@ -24,23 +24,23 @@
         android:scaleType="fitCenter"
         app:srcCompat="@mipmap/share_toqq" />
 
-    <ImageView
-        android:id="@+id/share_towechat"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:scaleType="fitCenter"
-        app:srcCompat="@mipmap/share_towechat" />
+    <!--<ImageView-->
+        <!--android:id="@+id/share_towechat"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--app:srcCompat="@mipmap/share_towechat" />-->
 
-    <ImageView
-        android:id="@+id/share_towechatpyq"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:scaleType="fitCenter"
-        app:srcCompat="@mipmap/share_towechatpyq" />
+    <!--<ImageView-->
+        <!--android:id="@+id/share_towechatpyq"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--app:srcCompat="@mipmap/share_towechatpyq" />-->
 
     <ImageView
         android:id="@+id/share_toother"

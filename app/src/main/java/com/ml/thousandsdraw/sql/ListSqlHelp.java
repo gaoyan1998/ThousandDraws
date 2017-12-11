@@ -45,9 +45,11 @@ public class ListSqlHelp extends SQLiteOpenHelper {
         getWritableDatabase().insert("draw",null,contentValues);
     }
     public boolean delete(list_config list_config){
-        mfileUtil.deleteFile(list_config.getImage_path()+".png");
-        mfileUtil.deleteFile(list_config.getBg_path()+".png");
-        mfileUtil.deleteFile(list_config.getDraw_path()+".png");
+        String[] files = {list_config.getBg_path()+".png",
+                list_config.getDraw_path()+".png",
+                list_config.getImage_path()+".png"
+        };
+        mfileUtil.deleteFile(files);
         getWritableDatabase().execSQL("delete from draw where draw_id="+list_config.getID());
         return true;
     }

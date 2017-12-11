@@ -1,5 +1,6 @@
 package com.ml.thousandsdraw.util;
 
+import android.content.Context;
 import android.os.Environment;
 
 /**
@@ -12,6 +13,9 @@ public class config {
 
     public static final String SAVE_PATH_TOADCARD = Environment.
             getExternalStorageDirectory() + "/tdw/";
-    public static final String SAVE_PATH_TO_LOCAL_CACHE = SAVE_PATH_TOADCARD+"cache/c"+".png";
+    public static final String SAVE_PATH_TO_LOCAL_CACHE = SAVE_PATH_TOADCARD+"cache/";
 
+    public static final String getSaveSDcardPath(Context context){
+        return context.getFilesDir() + "/bg_/tdw/";
+    }
 }

@@ -1,5 +1,6 @@
 package com.ml.thousandsdraw.util;
 
+import android.content.Context;
 import android.content.res.*;
 import android.graphics.*;
 import android.view.*;
@@ -65,36 +66,7 @@ public class ImageDeal
 		return bitmap; 
 		}
 		//将bitmap存为文件
-	public static boolean saveMyBitmap(Bitmap bmp,String path, String bitName) throws IOException {
-		if(bmp == null){
-			return false;
-		}
-		File dirFile = new File(path);
-		if (!dirFile.exists()) {
-			dirFile.mkdirs();
-		}
-		File f = new File(path + bitName);
-		boolean flag = false;
-		f.createNewFile();
-		FileOutputStream fOut = null;
-		try {
-			fOut = new FileOutputStream(f);
-			bmp.compress(Bitmap.CompressFormat.PNG, 100, fOut);
-			flag = true;
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		try {
-			
-			fOut.flush();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		try {
-			fOut.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return flag;
+	public static void saveMyBitmap(Context context,Bitmap bmp, String path, String bitName,Boolean isLocal){
+		new saveTask(context,path,bmp,bitName,isLocal).execute();
 	}
 }

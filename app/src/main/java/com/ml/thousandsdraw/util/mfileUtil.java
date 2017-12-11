@@ -21,12 +21,21 @@ import java.io.InputStreamReader;
 
 public class mfileUtil {
 
-    public static boolean deleteFile(String path){
-        File file = new File(path);
-        if (checkIsFile(file)){
-            return false;
+    public static boolean deleteFile(String[] path){
+        Log.i("tag","开始删除");
+
+        for (String filePath:path){
+            Log.i("tag","删除"+filePath);
+            File file = new File(filePath);
+            if (checkIsFile(file)){
+                file.delete();
+                Log.i("tag","已删除"+filePath);
+            }else {
+                Log.i("tag","未删除"+filePath);
+            }
+
         }
-        file.delete();
+
         return true;
     }
     public static boolean checkIsFile(File file){
@@ -53,10 +62,16 @@ public class mfileUtil {
             }
         }
     }
-    public static void copyFile(String oldPath,String newPath){
+    public static String copyFile(String oldPath,String newPath){
+        String fileName = new File(oldPath).getName();
         try {
+            File newFile = new File(newPath);
+            if(!newFile.exists()){
+                newFile.mkdirs();
+                new File(newPath + fileName).createNewFile();
+            }
             FileInputStream inputStream = new FileInputStream(oldPath);
-            FileOutputStream outputStream = new FileOutputStream(newPath);
+            FileOutputStream outputStream = new FileOutputStream(newPath+fileName);
             byte[] buff = new byte[1024];
             int byteRead;
             while ((byteRead = inputStream.read(buff)) > 0){
@@ -67,6 +82,7 @@ public class mfileUtil {
         } catch (Exception e) {
             Log.e("tag",e+"复制文件出错");
         }
+        return newPath+fileName;
     }
     /**
      * 把缓存里的文件路径转化为uri形式c

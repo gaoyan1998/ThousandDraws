@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +24,7 @@ import com.ml.thousandsdraw.model.QQshareListener;
 import com.ml.thousandsdraw.model.list_config;
 import com.ml.thousandsdraw.sql.ListSqlHelp;
 import com.ml.thousandsdraw.util.Constants;
+import com.ml.thousandsdraw.util.GetUriPath;
 import com.ml.thousandsdraw.util.PicCrop;
 import com.ml.thousandsdraw.util.config;
 import com.ml.thousandsdraw.util.mfileUtil;
@@ -108,29 +110,16 @@ public class PreviewPageActivity extends AppCompatActivity implements View.OnCli
                 startActivity(intent);
                 break;
             case R.id.preview_save:
-                mfileUtil.copyFile(list_config.getImage_path()+".png", config.SAVE_PATH_TOADCARD+System.currentTimeMillis()+".png");
-                Toast.makeText(PreviewPageActivity.this,"successful",Toast.LENGTH_SHORT).show();
+                String newPath =  mfileUtil.copyFile(list_config.getImage_path()+".png", config.SAVE_PATH_TOADCARD);
+                intent.setClass(PreviewPageActivity.this,saveActivity.class);
+                intent.putExtra("msv",newPath);
+                startActivity(intent);
                 break;
             case R.id.preview_share:
                 mfileUtil.copyFile(list_config.getImage_path()+".png", config.SAVE_PATH_TO_LOCAL_CACHE);
                 shareUtil.createShareWindow(PreviewPageActivity.this,
                         PreviewPageActivity.this.findViewById(R.id.preview_rootview),
-                        config.SAVE_PATH_TO_LOCAL_CACHE);
-//                Intent i = new Intent(Intent.ACTION_SEND);
-//                i.setType("image/*");
-//                Uri ui = Uri.fromFile(new File(list_config.getImage_path()+".png"));
-//                i.putExtra(Intent.EXTRA_STREAM,ui);
-//                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                i.putExtra(Intent.EXTRA_SUBJECT, "千层画分享");
-//                i.putExtra(Intent.EXTRA_TEXT, "Hi！我在千层画设计了一幅盖世之作！快来为我点赞吧！");
-//                startActivity(Intent.createChooser(i, getTitle()));
-//                Tencent tencent = Tencent.createInstance(Constants.APPID, PreviewPageActivity.this);
-//                Bundle params = new Bundle();
-//                params.putString(QQShare.SHARE_TO_QQ_IMAGE_LOCAL_URL,list_config.getImage_path()+".png");
-//                params.putString(QQShare.SHARE_TO_QQ_APP_NAME,"返回千层画");
-//                params.putInt(QQShare.SHARE_TO_QQ_KEY_TYPE, QQShare.SHARE_TO_QQ_TYPE_IMAGE);
-//                params.putInt(QQShare.SHARE_TO_QQ_EXT_INT, QQShare.SHARE_TO_QQ_FLAG_QZONE_AUTO_OPEN);
-//                tencent.shareToQQ(PreviewPageActivity.this, params,null);
+                        config.SAVE_PATH_TO_LOCAL_CACHE + new File(list_config.getImage_path()).getName()+".png");
                 break;
             case R.id.croup_head:
                 startCroup(PicCrop.TYPE_AVATAR);
@@ -147,7 +136,10 @@ public class PreviewPageActivity extends AppCompatActivity implements View.OnCli
         PicCrop.onActivityResult(requestCode,resultCode,data,this,new PicCrop.CropHandler(){
             @Override
             public void handleCropResult(Uri uri, int tag) {
-
+                String newPath = GetUriPath.getImageAbsolutePath(PreviewPageActivity.this,uri);
+                intent.setClass(PreviewPageActivity.this,saveActivity.class);
+                intent.putExtra("msv",newPath);
+                startActivity(intent);
             }
 
             @Override

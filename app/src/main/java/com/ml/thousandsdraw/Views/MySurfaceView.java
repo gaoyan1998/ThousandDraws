@@ -58,20 +58,13 @@ public class MySurfaceView extends SurfaceView implements
 		try
 		{
 			if(path != null){
-				Toast.makeText(c,"正在保存...",Toast.LENGTH_SHORT).show();
-				ImageDeal.saveMyBitmap(bitmap, path,".png");
-				//Toast.makeText(c,"图片已保存至"+path+".png",Toast.LENGTH_SHORT).show();
+				ImageDeal.saveMyBitmap(c,bitmap, path,".png",true);
 			}else {
 				s = Environment.getExternalStorageDirectory() + "/tdw/" + System.currentTimeMillis();
-				ImageDeal.saveMyBitmap(bitmap, s,".png");
-				//Toast.makeText(c,"图片已保存至"+s+".png",Toast.LENGTH_SHORT).show();
-				Intent i = new Intent();
-				i.setClass(c,saveActivity.class);
-				i.putExtra("msv",s + ".png");
-				c.startActivity(i);
+				ImageDeal.saveMyBitmap(c,bitmap, s,".png",true);
 			}
 		}
-		catch (IOException e)
+		catch (Exception e)
 		{}
 	}
 	public boolean saveToDAta()
@@ -81,20 +74,29 @@ public class MySurfaceView extends SurfaceView implements
 		String bg_path = c.getFilesDir() + "/bg_/tdw/" + System.currentTimeMillis();
 		String draw_path = c.getFilesDir() + "/draw_/tdw/" + System.currentTimeMillis();
 		try {
-			ImageDeal.saveMyBitmap(backBitmap, bg_path,".png");
-			ImageDeal.saveMyBitmap(cacheBitmap,draw_path,".png");
-		} catch (IOException e) {
+			ImageDeal.saveMyBitmap(c,backBitmap, bg_path,".png",false);
+			ImageDeal.saveMyBitmap(c,cacheBitmap,draw_path,".png",false);
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		String cache_path = c.getFilesDir() + "/cache_/tdw/" + System.currentTimeMillis();
 		saveToLocal(cache_path);
 		ListSqlHelp listSqlHelp = new ListSqlHelp(c);
 		listSqlHelp.insertData(bg_path,draw_path,cache_path,backColor,color,FRAME_WIDTH,FRAME_HEIGHT);
-		Snackbar.make(this, R.string.have_save,Snackbar.LENGTH_SHORT).show();
 		return true;
 	}
+	public void save(String[] paths){
+		Bitmap bitmap = Bitmap.createBitmap(FRAME_WIDTH,FRAME_HEIGHT, Bitmap.Config.ARGB_8888);
+		Canvas canvas = new Canvas(bitmap);
+		drawToScreen();
+		drawCache();
+		drawBack(canvas);
 
-	
+		for (String path:paths){
+			ImageDeal.saveMyBitmap(c,backBitmap, path,".png",false);
+		}
+
+	}
 	public void initView() {
 		mSurfaceHolder = getHolder();
 		mSurfaceHolder.addCallback(this);

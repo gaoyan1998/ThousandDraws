@@ -13,7 +13,7 @@
         android:gravity="center">
 
         <ImageView
-            android:id="@+id/shareImageView1"
+            android:id="@+id/save_img"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="20dp"
@@ -29,13 +29,17 @@
             android:gravity="center">
 
             <TextView
-                android:id="@+id/shareTextView2m"
+                android:id="@+id/save_path"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="31dp"
                 android:text="错误"
                 android:textAppearance="@style/TextAppearance.AppCompat" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分享至：" />
             <include layout="@layout/share_content"/>
 
             <RelativeLayout

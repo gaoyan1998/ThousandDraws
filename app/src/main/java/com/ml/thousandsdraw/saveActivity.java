@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.ml.thousandsdraw.util.Constants;
+import com.ml.thousandsdraw.util.shareUtil;
 import com.qq.e.ads.banner.ADSize;
 import com.qq.e.ads.banner.AbstractBannerADListener;
 import com.qq.e.ads.banner.BannerView;
@@ -25,9 +26,11 @@ import java.io.File;
 public class saveActivity extends AppCompatActivity implements View.OnClickListener {
 
     ImageView saveImg;
+    TextView  pathView;
     //广告
     ViewGroup bannerContainer;
     BannerView bv;
+    private String file;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,32 +39,11 @@ public class saveActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        Intent geti = getIntent();
+        file = geti.getStringExtra("msv");
+
         initView();
 
-        Intent geti = getIntent();
-        String file = geti.getStringExtra("msv");
-        final File f = new File(file);
-//        TextView tv = (TextView) findViewById(R.id.shareTextView1);
-//        TextView tv2 = (TextView) findViewById(R.id.shareTextView2m);
-//        saveImg = (ImageView) findViewById(R.id.shareImageView1);
-//        tv2.setText("图片已经保存到"+file);
-//        Bitmap bm = BitmapFactory.decodeFile(file);
-//        saveImg.setImageBitmap(bm);
-//        tv.setOnClickListener(new View.OnClickListener(){
-//
-//            @Override
-//            public void onClick(View p1)
-//            {
-//                Intent i = new Intent(Intent.ACTION_SEND);
-//                i.setType("image/*");
-//                Uri ui = Uri.fromFile(f);
-//                i.putExtra(Intent.EXTRA_STREAM,ui);
-//                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                i.putExtra(Intent.EXTRA_SUBJECT, "千层画分享");
-//                i.putExtra(Intent.EXTRA_TEXT, "Hi！我在千层画设计了一幅盖世之作！快来为我点赞吧！");
-//                startActivity(Intent.createChooser(i, getTitle()));
-//            }
-//        });
     }
 
     private void initView() {
@@ -70,6 +52,16 @@ public class saveActivity extends AppCompatActivity implements View.OnClickListe
         this.findViewById(R.id.closeBanner).setOnClickListener(this);
         this.initBanner();
         this.bv.loadAD();
+
+        saveImg  = findViewById(R.id.save_img);
+        pathView = findViewById(R.id.save_path);
+        findViewById(R.id.share_toqq).setOnClickListener(new shareUtil.shareBtnListener(saveActivity.this,file));
+        findViewById(R.id.share_toqzone).setOnClickListener(new shareUtil.shareBtnListener(saveActivity.this,file));
+        findViewById(R.id.share_toother).setOnClickListener(new shareUtil.shareBtnListener(saveActivity.this,file));
+
+        pathView.setText("图片已经保存到"+file);
+        Bitmap bm = BitmapFactory.decodeFile(file);
+        saveImg.setImageBitmap(bm);
     }
 
     private void initBanner() {

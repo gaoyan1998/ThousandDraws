@@ -65,8 +65,7 @@ public class logo_list_viewholder extends RecyclerView.ViewHolder implements Vie
 
     @Override
     public boolean onLongClick(View view) {
-        dialogs.deleteDialog(context,list_config);
-        adapter.updata();
+        dialogs.deleteDialog(context,list_config,adapter);
         return true;
     }
 }

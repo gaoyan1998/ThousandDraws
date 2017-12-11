@@ -105,14 +105,15 @@ public class PicCrop {
             config.isOval = true;
             config.aspectRatioX = 1;
             config.aspectRatioY = 1;
-            //config.hideBottomControls = true;
+            config.hideBottomControls = true;
             config.showGridLine = false;
             config.showOutLine = false;
             config.maxHeight = 400;
             config.maxWidth = 400;
+            config.freeCrop = false;
         }else  if (type == TYPE_NORMAL){//什么都不用做
-
-
+            config.isOval = false;
+            config.freeCrop = true;
         }else {
 
         }
@@ -186,8 +187,10 @@ public class PicCrop {
         Uri mDestinationUri = buildUri();
         UCrop uCrop = UCrop.of(sourceUri, mDestinationUri);
 
-       // uCrop.withAspectRatio(config.aspectRatioX,config.aspectRatioY);
-       // uCrop.withMaxResultSize(config.maxWidth,config.maxHeight);
+        if (config.isOval){
+            uCrop.withAspectRatio(config.aspectRatioX,config.aspectRatioY);
+        }
+        //uCrop.withMaxResultSize(config.maxWidth,config.maxHeight);
 
         UCrop.Options options = new UCrop.Options();
         options.setCompressionFormat(Bitmap.CompressFormat.PNG);
@@ -195,9 +198,9 @@ public class PicCrop {
         options.setCompressionQuality(config.quality);
         //options.setOvalDimmedLayer(config.isOval);
         options.setCircleDimmedLayer(config.isOval);
-//        options.setShowCropGrid(config.showGridLine);
-//        options.setHideBottomControls(config.hideBottomControls);
-//        options.setShowCropFrame(config.showOutLine);
+        options.setShowCropGrid(config.showGridLine);
+       // options.setHideBottomControls(config.hideBottomControls);
+        options.setShowCropFrame(config.showOutLine);
         options.setToolbarColor(config.toolbarColor);
         options.setStatusBarColor(config.statusBarColor);
         options.setFreeStyleCropEnabled(config.freeCrop);
@@ -223,7 +226,7 @@ public class PicCrop {
         public boolean hideBottomControls = false;//底部操作条
         public boolean showGridLine = true;//内部网格
         public boolean showOutLine = true;//最外面的矩形线
-        public boolean freeCrop = true;//自由裁剪
+        public boolean freeCrop = false;//自由裁剪
 
         public @ColorInt
         int toolbarColor =  Color.BLUE;
