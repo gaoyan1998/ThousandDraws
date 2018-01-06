@@ -1,7 +1,5 @@
 package com.ml.thousandsdraw.util;
 
-import android.content.Context;
-import android.content.res.*;
 import android.graphics.*;
 import android.view.*;
 
@@ -59,12 +57,7 @@ public class ImageDeal
 	public static Bitmap createViewBitmap(View v) {
 		Bitmap bitmap = Bitmap.createBitmap(v.getWidth(), v.getHeight(), Bitmap.Config.ARGB_8888); 
 		Canvas canvas = new Canvas(bitmap); 
-		v.draw(canvas); 
-		
+		v.draw(canvas);
 		return bitmap; 
 		}
-		//将bitmap存为文件
-	public static void saveMyBitmap(Context context,Bitmap bmp, String path, String bitName,Boolean isLocal){
-		//new saveTask(context,path,bmp,bitName,isLocal).execute();
-	}
 }

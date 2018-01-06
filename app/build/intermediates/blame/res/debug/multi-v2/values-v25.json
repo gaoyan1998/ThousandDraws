@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "D:\\project\\Androidworker\\ThousandDraw\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ac54a0ace3996090bdb7ad492e3b5bcd\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\ikiler\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ff742d9023e1b540cb01b3a2775d1b64\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

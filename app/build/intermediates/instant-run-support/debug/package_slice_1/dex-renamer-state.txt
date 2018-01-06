@@ -1,4 +1,4 @@
-#Mon Dec 11 18:59:40 CST 2017
-base.0=C\:\\workSpace\\androidStudio\\Androidworker\\old\\4\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+#Sat Jan 06 19:47:52 CST 2018
+base.0=D\:\\project\\Androidworker\\ThousandDraw\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex

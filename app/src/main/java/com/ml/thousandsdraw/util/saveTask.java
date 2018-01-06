@@ -47,7 +47,6 @@ public class saveTask extends AsyncTask<Void,Void,Boolean> {
     protected Boolean doInBackground(Void... voids) {
 
         for (int i = 0; i < list.size(); i++){
-            boolean flag = false;
             PathModel model= list.get(i);
             File dirFile = new File(model.getPath());
             if (!dirFile.exists()) {
@@ -59,7 +58,6 @@ public class saveTask extends AsyncTask<Void,Void,Boolean> {
                 f.createNewFile();
                 fOut = new FileOutputStream(f);
                 model.getBitmap().compress(Bitmap.CompressFormat.PNG, 100, fOut);
-                flag = true;
             } catch (Exception e) {
                 e.printStackTrace();
             }

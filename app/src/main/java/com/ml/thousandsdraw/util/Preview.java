@@ -5,7 +5,7 @@ import android.content.*;
 import android.view.*;
 
 
-public class preinsteall
+public class Preview
 {
 	
 	private static final int PRE_LINE = 0;
@@ -16,27 +16,28 @@ public class preinsteall
 	MySurfaceView msv ;
 
 	private Context context;
-	public preinsteall(MySurfaceView msv,Context context){
+
+	public Preview(MySurfaceView msv, Context context){
 		this.msv = msv;
 		this.context = context;
 	}
 	
 	public void pre_line(){
-		msv.addPath(0,0,MotionEvent.ACTION_DOWN);
+		msv.RefereshPath(0,0,MotionEvent.ACTION_DOWN);
 		int cx = MySurfaceView.FRAME_WIDTH / 2,cy = MySurfaceView.FRAME_HEIGHT / 2;
-		msv.addPath(cx,cy,MotionEvent.ACTION_MOVE);
+		msv.RefereshPath(cx,cy,MotionEvent.ACTION_MOVE);
 		msv.drawToScreen();
-		msv.addPath(0,0,MotionEvent.ACTION_UP);
+		msv.RefereshPath(0,0,MotionEvent.ACTION_UP);
 	}
 	//画心
 	public void drawLove(float rate,int offset){
 		// 路径的起始点
 		int cx = MySurfaceView.FRAME_WIDTH / 2,cy = MySurfaceView.FRAME_HEIGHT / 2;
 		cx -= offset; cy -= offset;
-		msv.addPath(cx,cy,MotionEvent.ACTION_DOWN);
+		msv.RefereshPath(cx,cy,MotionEvent.ACTION_DOWN);
 		// 根据心形函数画图
 		for(int z = 0; z < 30; z ++){
-			msv.addPath(cx,cy,MotionEvent.ACTION_DOWN);
+			msv.RefereshPath(cx,cy,MotionEvent.ACTION_DOWN);
 		for (double i = 0; i <= 2 * Math.PI; i += 0.01)
 		{
 			float x = (float) (16 * Math.sin(i) * Math.sin(i) * Math.sin(i));
@@ -45,13 +46,13 @@ public class preinsteall
 			y *= rate;
 			x = cx - x;
 			y = cy - y;
-			msv.addPath(x,y,MotionEvent.ACTION_MOVE);
+			msv.RefereshPath(x,y,MotionEvent.ACTION_MOVE);
 			}
 			cx -= rate*offset; cy -= rate*offset;
 			//提交画布
 			msv.drawToScreen();
 			//完成绘图 模仿抬起动作完成绘图
-			msv.addPath(0,0,MotionEvent.ACTION_UP);
+			msv.RefereshPath(0,0,MotionEvent.ACTION_UP);
 		}
 			
 	}

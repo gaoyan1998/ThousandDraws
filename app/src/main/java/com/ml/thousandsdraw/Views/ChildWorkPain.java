@@ -5,14 +5,13 @@ import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.ml.thousandsdraw.R;
 import com.ml.thousandsdraw.model.ChildView;
 import com.ml.thousandsdraw.model.smallView;
-import com.ml.thousandsdraw.util.preinsteall;
+import com.ml.thousandsdraw.util.Preview;
 
 /**
  * Created by 高岩 on 2017/10/24.
@@ -64,7 +63,7 @@ public class ChildWorkPain extends ChildView implements View.OnClickListener{
                          type_content);
                 break;
             case R.id.child_view_pre_draw_text:
-                new preinsteall(getDrawBoard(),getContext()).show();
+                new Preview(getDrawBoard(),getContext()).show();
                 break;
             case R.id.child_view_linesize_text:
                 createSeekBArDialog();
