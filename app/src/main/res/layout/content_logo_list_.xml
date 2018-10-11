@@ -8,11 +8,13 @@
     tools:context="com.ml.thousandsdraw.logoList_"
     tools:showIn="@layout/bar_logo_list_">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/logo_recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-         />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/logo_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
 
     <!--<TextView-->
         <!--android:layout_width="wrap_content"-->

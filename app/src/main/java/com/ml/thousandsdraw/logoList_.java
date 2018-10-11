@@ -88,10 +88,11 @@ public class logoList_ extends AppCompatActivity implements NavigationView.OnNav
         GridLayoutManager manager = new GridLayoutManager(logoList_.this,2);
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(new logo_list_adapter(logoList_.this));
+        recyclerView.setHasFixedSize(true);
         //设置分隔线
         //recyclerView.addItemDecoration( new DividerGridItemDecoration(this ));
         //设置增加或删除条目的动画
-        recyclerView.setItemAnimator( new DefaultItemAnimator());
+        //recyclerView.setItemAnimator( new DefaultItemAnimator());
     }
     private void inintDrawLayer(){
         DrawerLayout drawer = (DrawerLayout) logoList_.this.findViewById(R.id.logo_drawer_layout);
